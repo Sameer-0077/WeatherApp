@@ -26,7 +26,7 @@ searchbtn.addEventListener('click', ()=>{
 })
 
 foreCastData.addEventListener('click', ()=>{
-    window.location.href = `../showForecast/forecast.html?city=${encodeURIComponent(searchCity.value)}`;
+    window.location.href = `../showforecast/forecast.html?city=${encodeURIComponent(searchCity.value)}`;
     // foreCast(searchCity.value);
 })
 
