@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5-Day Forecast</title>
+    <link rel="stylesheet" href="forecast.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="card">
+        <div class="search-bar">
+            <h1 class="home"><i class="fa-solid fa-house"></i></h1>
+            <input type="text" placeholder="Enter city name" spellcheck="false">
+            <button><img src="../images/search.png"></button>
+        </div>
+        <div class="weather">
+            <h1 class="day"></h1>
+            <img src="" class="weather-icon">
+            <div class="next-day">
+                <h2 class="prev"><i class="fa-solid fa-chevron-left"></i></h2>
+                <h1 class="temp"></h1>
+                <h2 class="next"><i class="fa-solid fa-chevron-right"></i></h2>
+            </div>
+            <h3 class="feel"></h3>
+            <br>
+            <h2 class="city-name"></h2>
+            <br>
+            <!-- <button class="fore-cast">Get every next 3 hour forecast</button> -->
+            <div class="details">
+                <div class="col">
+                    <img src="../images/humidity.png">
+                    <div>
+                        <p class="humidity"></p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="../images/wind.png">
+                    <div>
+                        <p class="wind"></p>
+                        <p>Wind speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="forecast.js"></script>
+</html>
