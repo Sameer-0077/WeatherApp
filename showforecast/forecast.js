@@ -10,7 +10,7 @@ const weather = document.querySelector('.weather');
 const day = document.querySelector('.day');
 
 document.querySelector('.home').addEventListener('click', () => {
-    window.location.href = '../CurrentWeather/index.html';
+    window.location.href = '../currentweather/index.html';
 })
 
 function getCityNameFromUrl() {
