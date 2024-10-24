@@ -11,5 +11,5 @@ Click the "Get Weather" button to retrieve and display the current weather data.
 View 5-Day Forecast: After retrieving the current weather, click the "Get 5-Day Forecast" button to navigate to the forecast page.
 The 5-day weather forecast will be displayed, showing daily weather conditions for the selected city.
 ## Technologies Used
-HTML, CSS, JavaScript
+HTML, CSS, JavaScript,
 Weather API for real-time data retrieval
